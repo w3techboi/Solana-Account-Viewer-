@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Account Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Solana Account Viewer</h1>
+        <p></p>
+    </header>
+
+    <main>
+        <section class="wallet-section">
+
+            <h2>My Wallets</h2>
+
+            <div class="input-area">
+                <input
+                    type="text"
+                    id="walletAddress"
+                    placeholder="Enter Solana wallet address"
+                >
+
+                <button id="addWallet">
+                    Add Wallet
+                </button>
+            </div>
+
+            <div id="walletList">
+                <p>No wallets added yet.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
